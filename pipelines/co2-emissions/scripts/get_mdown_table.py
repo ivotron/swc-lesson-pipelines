@@ -3,13 +3,13 @@ import csv
 import sys
 
 fname = sys.argv[1]
+fout = fname.replace('.csv', '') + '.md'
 
-
-with open(fname, 'r') as fi:
+with open(fname, 'r') as fi, open(fout, 'w') as fo:
     r = csv.reader(fi)
 
-    print('| Year | Mean |')
-    print('| ---- | ---- |')
+    fo.write('| Year | Mean |\n')
+    fo.write('| ---- | ---- |\n')
 
     for row in r:
-        print('| {} |'.format(' | '.join(row)))
+        fo.write('| {} |\n'.format(' | '.join(row)))
