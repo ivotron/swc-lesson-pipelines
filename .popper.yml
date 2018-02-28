@@ -1,2 +1,10 @@
-envs:
-  co2-emissions: host
+metadata: {}
+pipelines:
+  pipelines/co2-emissions:
+    envs:
+    - host
+    path: pipelines/co2-emissions
+    stages:
+    - setup
+    - run
+    - validate
