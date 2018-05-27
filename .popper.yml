@@ -8,3 +8,11 @@ pipelines:
     - setup
     - run
     - validate
+  sea-surface-mapping:
+    envs:
+    - host
+    path: pipelines/sea-surface-mapping
+    stages:
+    - setup
+    - get-data
+    - transform-and-generate-map
