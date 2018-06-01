@@ -10,6 +10,7 @@ set -ex
     pip install xarray
     pip install netCDF4
     pip install plotly
+    pip install scipy
  else
     echo ERROR: virtualenv not found. Please make sure that virtualenv is installed and running.
     exit 1
