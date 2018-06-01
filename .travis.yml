@@ -8,4 +8,4 @@ install:
 - export PATH=$PATH:/tmp/popper/cli/bin
 script: popper run
 env:
-  - PLOTY_USERNAME:popper PLOTY_API_KEY:bvL8hn5uqwfhz6dRJR71
+  - PLOTY_USERNAME=popper PLOTY_API_KEY=bvL8hn5uqwfhz6dRJR71
