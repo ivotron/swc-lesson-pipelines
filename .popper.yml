@@ -1,6 +1,6 @@
 metadata: {}
 pipelines:
-  pipelines/co2-emissions:
+  co2-emissions:
     envs:
     - host
     path: pipelines/co2-emissions
@@ -8,7 +8,7 @@ pipelines:
     - setup
     - run
     - validate
-  pipelines/sea-surface-mapping:
+  sea-surface-mapping:
     envs:
     - host
     path: pipelines/sea-surface-mapping
