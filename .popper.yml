@@ -8,6 +8,11 @@ pipelines:
     - setup
     - run
     - validate
+  data-science-no-stages:
+    envs:
+    - host
+    path: pipelines/data-science-no-stages
+    stages: []
   sea-surface-mapping:
     envs:
     - host
