@@ -7,5 +7,3 @@ install:
 - git clone --recursive https://github.com/systemslab/popper /tmp/popper
 - export PATH=$PATH:/tmp/popper/cli/bin
 script: popper run
-env:
-  - PLOTY_USERNAME=popper PLOTY_API_KEY=bvL8hn5uqwfhz6dRJR71
