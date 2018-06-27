@@ -1,2 +1,5 @@
 pipelines/*/popper_status
 pipelines/*/popper_logs
+.ropeproject
+pipelines/co2-emissions/data/
+*.sw?
