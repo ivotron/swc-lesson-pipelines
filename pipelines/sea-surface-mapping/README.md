@@ -1,4 +1,3 @@
 # sea-surface-mapping
 
-A template showing how to make Weather maps in Python using tools like mapbox-gl, xarray and netCDF4. In this case, Popper helps make sure that a virtualenv is enabled and running at the time of execution by throwing an exception if your virtualenv is disabled. 
-
+A pipeline showing how to create [weather maps in Python](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/) using tools like mapbox-gl, xarray and netCDF4. In this case, the pipeline makes use of `virtualenv`, ensuring that an environment is active and running at the time of execution.
