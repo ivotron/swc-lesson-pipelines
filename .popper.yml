@@ -1,8 +1,14 @@
-metadata: {}
+badge-server-url: http://badges.falsifiable.us
+metadata:
+  access_right: open
+  license: CC-BY-4.0
+  publication_type: article
+  upload_type: publication
 pipelines:
   co2-emissions:
     envs:
-    - host
+      host:
+        args: []
     path: pipelines/co2-emissions
     stages:
     - setup
@@ -11,11 +17,17 @@ pipelines:
   data-science-no-stages:
     envs:
     - host
+    envs:
+      host:
+        args: []
     path: pipelines/data-science-no-stages
     stages: []
   docker-data-science:
     envs:
     - host
+    envs:
+      host:
+        args: []
     path: pipelines/docker-data-science
     stages:
     - build-docker-image
@@ -25,7 +37,13 @@ pipelines:
   sea-surface-mapping:
     envs:
     - host
+    envs:
+      host:
+        args: []
     path: pipelines/sea-surface-mapping
     stages:
     - setup.sh
     - run.sh
+search_sources:
+- popperized
+version: 1
